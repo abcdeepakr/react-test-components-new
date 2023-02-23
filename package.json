@@ -9,6 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@deepakr-28/boring-component-library": "^0.3.1",
+    "@deepakr-28/button-component-library": "^0.3.1",
     "@next/font": "13.1.4",
     "@types/node": "18.11.18",
     "@types/react": "18.0.27",

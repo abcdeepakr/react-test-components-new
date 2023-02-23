@@ -1,0 +1,36 @@
+.table-container{
+    display: flex;
+    flex-direction: column;
+    max-height: 285px;
+    border: 2px solid red;
+    overflow: scroll;
+}
+.table-header,
+.table-contents,
+.table-cell {
+    display: flex;
+}
+
+.table-contents{
+    flex-direction: column;
+}
+
+.table-header{
+    border: 1px solid red;
+    justify-content: space-between;
+}
+
+.table-cell{
+    
+    justify-content: space-between;
+}
+.table-header__cell{
+    border: 1px solid pink;
+    width: 100%;
+    text-align: center;
+}
+.table-cell>div{
+    border: 1px solid black;
+    width: 100%;
+    text-align: center;
+}
